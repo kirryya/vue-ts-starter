@@ -1,8 +1,6 @@
 import Vue from "vue";
-import VueRouter, {Route} from "vue-router";
+import VueRouter from "vue-router";
 import {RouteConfig} from "vue-router/types/router";
-import {Resolver} from "../../../typings/vue";
-import {RouteMeta} from "../types/router/types";
 import {MainPage} from "../pages/mainPage";
 
 Vue.use(VueRouter);
